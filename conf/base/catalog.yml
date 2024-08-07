@@ -1,0 +1,31 @@
+raw_data:
+   type: pandas.CSVDataSet
+   file_path : data/raw/Youtube01-Psy.csv "
+
+
+x:
+  type: MemoryDataSet
+
+y: 
+  type: MemoryDataSet
+
+cv: 
+  type: MemoryDataSet
+
+model: 
+  type: MemoryDataSet
+
+xtrain:
+  type: MemoryDataSet
+
+xtest:
+   type: MemoryDataSet
+
+ytrain:
+  type: MemoryDataSet
+
+ytest:
+  type: MemoryDataSet
+
+accuracy:
+   type: MemoryDataSet
